@@ -1,0 +1,22 @@
+
+.contact{
+    background: rgb(27, 27, 27);
+    color: white;
+    padding: 10%;
+    
+}
+.contact .form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact input,textarea{
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid wheat;
+    width: 100%;
+}
+.contact form{
+    display: block;
+}

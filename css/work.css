@@ -1,0 +1,113 @@
+.part1 h5,
+h3 {
+    letter-spacing: 5;
+    line-height: 1.5;
+}
+.tabs {
+    display: flex;
+    list-style: none;    
+    font-weight: 100px;
+    align-items: center;
+    margin-left: 50px;
+  }
+ .center {
+    position: relative;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-right: 20px solid white;
+    cursor: pointer;
+    transition: 0.2s;
+    color: black;
+    width: max-content;
+    height: 50px;
+  } 
+  .center::after{
+    content: '';
+    position: absolute;
+    width: 100% !important;
+    height: 0.175rem !important;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+  }
+  .btn-center::after{
+    transform: scale(0,1);transition: transform 0.3s ease;
+  }
+  .btn-center:hover::after{
+    transform: scale(1,1);
+  }
+  .content {
+    padding: 20px;
+    color: black;
+  }
+  .content > div {
+    padding: 20px;
+  }
+  .content > div:not(:first-child) {
+    display: none;
+  }
+  
+
+.content {
+
+  padding: 10px;
+  padding-bottom: 0px;
+  background-color: white;
+  overflow: hidden;
+
+}
+
+.card {
+  border: none;
+  background: none;
+  padding: 0 !important;
+  border-radius: 0px;
+  display: block;
+  position: relative;
+
+}
+
+.card img {
+  width: 100%;
+  height: 90%;
+}
+
+.hover {
+  overflow: hidden;
+}
+
+.hover img {
+  transition: all 1.5s ease;
+}
+
+.hover:hover img {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.card h5,
+p {
+  margin-top: 20px;
+}
+ .content .card{
+  border: none;
+
+ }
+ 
+.contact-us img{
+  width: 100%;
+  height:300px;
+  padding: 0px !important;
+  }
+  .contact-us .col{
+      padding: 0 !important;
+      background: black;
+  }
+  .contact-us h3{
+      text-align: inherit;
+      padding: 15%;
+      padding-bottom: 0;
+      color: white;
+      letter-spacing: 1.5;
+  }
